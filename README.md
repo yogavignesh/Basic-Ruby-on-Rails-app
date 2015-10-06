@@ -59,3 +59,7 @@ f. What Ubuntu commands are required to deploy and run your server?
 ### The link to the running heroku app
 
         https://cse5335-yxs1504.herokuapp.com/
+        
+### References
+
+        http://www.sitepoint.com/use-google-maps-rails/
