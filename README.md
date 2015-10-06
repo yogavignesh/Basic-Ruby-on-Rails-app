@@ -1,26 +1,31 @@
 # CSE5335-project-1
 
 a. What server framework did you choose and why? 
+
     I chose Ruby on Rails as a server framework because of the following advatages:
     i)Ruby on Rails is an opinionated Framework that makes you adhere to its way of doing things out-of-the-box while          Node.js is not
     ii)Big resource of tutorials available for Ruby on Rails than Node.js
     iii)The developments speed is also good in Ruby on Rails compared to Node.js.The controllers are all generated with        ease. and web applications are much easier. 
 
-b. What client framework did you choose and why? 
+b. What client framework did you choose and why?
+
    I chose Jquery as a client server framework because of the following:
    i)It's a well established framework with high amount of tutorials available for beginners and pros.
    ii)Easy to grasp for javascript developers.
    iii)Good for Ajax calls.
 
 c. What aspect of the implementation did you find easy, if any, and why? 
+
     I found the task of pushing and running the code into heroku easy for RUby on Rails.I was fast and simple.
     I also found the implementation of calling json data simple using jquery.
 
 d. What aspect of the implementation did you find hard, if any, and why? 
+
     I found the building up of json data take an amount of time. The implementation of d3.js also took some doing.
 
 e. What components OTHER than your client and server framework did you install, 
   if any, and if so, what is their purpose for your solution? 
+  
   I had to install heroku:heroku toolbelt, package dependencies for ruby and rails ,rvm for setting ruby version,
   gem,bundler etc.
   
