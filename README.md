@@ -44,14 +44,18 @@ f. What Ubuntu commands are required to deploy and run your server?
      $ echo "# CSE5335-project-1" >> README.md
      $ git add README.md
      $ git commit -m "first commit"
-     $ git remote add origin https://github.com/heroku/yogavignesh/CSE5335-project-1.git
+     $ git remote add origin https://github.com/yogavignesh/CSE5335-project-1.git
      $ git push -u origin master 
 
 # Getting code from github:
 
        $ heroku Login
-       $ git clone https://github.com/heroku/yogavignesh/CSE5335-project-1.git
+       $ git clone https://github.com/yogavignesh/CSE5335-project-1.git
        $ cd CSE5335-project-1
        $ heroku create
        $ git push heroku master
        $ heroku open
+       
+### The link to the running heroku app
+
+        https://cse5335-yxs1504.herokuapp.com/
