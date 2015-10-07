@@ -31,6 +31,7 @@ d. What aspect of the implementation did you find hard, if any, and why?
 
     I found the building up of json data take an amount of time. 
     The implementation of d3.js also took some doing.
+    Had to deal with setting up of google maps api which required correct parsing of location data.
 
 e. What components OTHER than your client and server framework did you install,if any, and if so, what is their purpose for your solution?
 
@@ -46,13 +47,19 @@ f. What Ubuntu commands are required to deploy and run your server?
      $ git commit -m "first commit"
      $ git remote add origin https://github.com/yogavignesh/CSE5335-project-1.git
      $ git push -u origin master 
+     
+    to update
+     $ git remote add origin https://github.com/yogavignesh/CSE5335-project-1.git
+     $ git push
+    
+    
 
 # Getting code from github:
 
        $ heroku Login
        $ git clone https://github.com/yogavignesh/CSE5335-project-1.git
        $ cd CSE5335-project-1
-       $ heroku create
+       $ heroku create cse5335-yxs1504
        $ git push heroku master
        $ heroku open
        
@@ -63,3 +70,9 @@ f. What Ubuntu commands are required to deploy and run your server?
 ### References
 
         http://www.sitepoint.com/use-google-maps-rails/
+        http://heroku.com
+        http://guides.rubyonrails.org/getting_started.html
+        http://www.w3schools.com/
+        http://jquery.com/
+        http://stackoverflow.com/
+        
