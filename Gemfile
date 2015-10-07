@@ -31,10 +31,39 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+gem 'bcrypt', '~> 3.1.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+# development gems
+group :development, :test do
+  gem 'sqlite3', '~> 1.3.8'    # dev & test database
+  gem 'figaro', '~> 0.7.0'     # env variables
+end
+
+# Paging
+gem 'kaminari', '~> 0.15.0'
+
+# Slugs and friendly id's
+gem 'friendly_id', '~> 5.0.2'
+
+# font-awesome
+gem 'font-awesome-sass', '~> 4.0.2'
+
+# production gems for heroku
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
+
+# Bootstrap 3
+group :development, :test do
+  gem 'rails_layout', '~> 0.5.11'  # Bootstrap 3 layout generator
+end
+
+gem 'bootstrap-sass', '~> 3.0.3.0'
 
