@@ -9,14 +9,14 @@ b. What Linux(Ubuntu) commands are required to deploy and run your server?
 # Uploading code to github:
 
      $ git init
-     $ echo "# CSE5335-project-1" >> README.md
+     $ echo "# Basic-Ruby-on-Rails-app" >> README.md
      $ git add README.md
      $ git commit -m "first commit"
-     $ git remote add origin https://github.com/yogavignesh/CSE5335-project-1.git
+     $ git remote add origin https://github.com/yogavignesh/Basic-Ruby-on-Rails-app.git
      $ git push -u origin master 
      
     to update
-     $ git remote add origin https://github.com/yogavignesh/CSE5335-project-1.git
+     $ git remote add origin https://github.com/yogavignesh/Basic-Ruby-on-Rails-app.git
      $ git push
     
     
@@ -24,15 +24,15 @@ b. What Linux(Ubuntu) commands are required to deploy and run your server?
 # Getting code from github:
 
        $ heroku Login
-       $ git clone https://github.com/yogavignesh/CSE5335-project-1.git
-       $ cd CSE5335-project-1
-       $ heroku create cse5335-yxs1504
+       $ git clone https://github.com/yogavignesh/Basic-Ruby-on-Rails-app.git
+       $ cd Basic-Ruby-on-Rails-app
+       $ heroku create BasicAppRubyonRails
        $ git push heroku master
        $ heroku open
        
 ### The link to the running heroku app
 
-        https://cse5335-yxs1504.herokuapp.com/
+        https://BasicAppRubyonRails.herokuapp.com/
         
 ### References
 
