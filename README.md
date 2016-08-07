@@ -26,13 +26,13 @@ b. What Linux(Ubuntu) commands are required to deploy and run your server?
        $ heroku Login
        $ git clone https://github.com/yogavignesh/Basic-Ruby-on-Rails-app.git
        $ cd Basic-Ruby-on-Rails-app
-       $ heroku create BasicAppRubyonRails
+       $ heroku create basic-app-ruby-on-rails
        $ git push heroku master
        $ heroku open
        
 ### The link to the running heroku app
 
-        https://BasicAppRubyonRails.herokuapp.com/
+      https://basic-app-ruby-on-rails.herokuapp.com/
         
 ### References
 
